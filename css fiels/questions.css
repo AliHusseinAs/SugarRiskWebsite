@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: #9b1d1d;
+    padding:15px;
+}
+
+header h1{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+
+.omrs-input{
+    display: inline-block;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.omrs-input2{
+    display: inline-block;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.questionPanel{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 8px; 
+    justify-content: center; 
+    margin-top: 210px;
+    text-align: center;
+}
+
+footer{
+    background-color: #9b1d1d;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h5{
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+}
+
+.icon-link {
+    display: inline-block;
+    cursor: pointer; 
+}
+.icon-link img {
+    width: 24px; 
+    height: 24px; 
+}
+
+.btnSubmit {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  .btnSubmit:hover {
+    background-color: #9b1d1d;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  .btnSubmit:active {
+    transform: translateY(-1px);
+  }
+
+.submit{
+    text-align: center;
+    padding-top:20px;
+}
+.hidden{
+    display: none;
+}
+.resultsPanel{
+    text-align: center;
+    font-size:22px;
+}
+
+.resSection{
+    display: block;
+    background-color: #b73131;
+    border-radius: 1rem;
+    padding: 40px;
+    margin: 100px auto;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.resSection h2{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.resSection p{
+    color: #f7f7f7;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}

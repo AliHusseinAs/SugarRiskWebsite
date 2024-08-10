@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <link rel="stylesheet" href="/css fiels/questions.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Type 2 Diabetes Risk Assessment Test
+        </h1>
+        <p id="id"></p>
+    </header>
+
+
+    <section class="questionPanel" id="questionFields">
+        <input type="text" name="name" id="idInput" class="omrs-input" placeholder="Enter Your ID">
+        <input type="text" name="name" id="name" class="omrs-input" placeholder="Enter Your Name">
+        <a href="#" class="icon-link" onclick="showPopupName(event)">
+            <img src="/question.png" alt="Icon">
+        </a>
+        <input type="text" name="name" id="surname" class="omrs-input" placeholder="Enter Your Surname">
+        <a href="#" class="icon-link" onclick="showPopupSurname(event)">
+            <img src="/question.png" alt="Icon">
+        </a>
+        <input type="text" name="name" id="age" class="omrs-input" placeholder="Enter Your Age">
+        <a href="#" class="icon-link" onclick="showPopupAge(event)">
+            <img src="/question.png" alt="Icon">
+        </a>
+        <input type="text" name="name" id="bmi" class="omrs-input2" placeholder="Enter Your Body Mass Index">
+        <a href="#" class="icon-link" onclick="showPopup(event)">
+            <img src="/question.png" alt="Icon">
+        </a>
+        <input type="text" name="name" id="waist" class="omrs-input2" placeholder="Enter Waist Cirumference">
+        <a href="#" class="icon-link" onclick="showPopup2(event)">
+            <img src="/question.png" alt="Icon">
+        </a>
+        <input type="text" name="name" id="active" class="omrs-input2" placeholder="Do you have minimum 30min physical activity daily">
+        <a href="#" class="icon-link" onclick="showPopupActive(event)">
+            <img src="/question.png" alt="Icon">
+        </a>
+        <input type="text" name="name" id="eat" class="omrs-input2" placeholder="How often do you eat healthy (numeric answer)">
+        <a href="#" class="icon-link" onclick="showPopupEat(event)">
+            <img src="/question.png" alt="Icon">
+        </a>
+        <input type="text" name="name" id="hyber" class="omrs-input2" placeholder="Have you taken Antihybertensive drugs">
+        <a href="#" class="icon-link" onclick="showPopupHyber(event)">
+            <img src="/question.png" alt="Icon">
+        </a>
+        <input type="text" name="name" id="blood" class="omrs-input2" placeholder="Have you ever had high blood glucose">
+        <a href="#" class="icon-link" onclick="showPopupBlood(event)">
+            <img src="/question.png" alt="Icon">
+        </a>
+        <input type="text" name="name" id="relative" class="omrs-input2" placeholder="numeric answer, check the mark">
+        <a href="#" class="icon-link" onclick="showPopupRelative(event)">
+            <img src="/question.png" alt="Icon">
+        </a>
+        <input type="text" name="name" id="sex" class="omrs-input2" placeholder="Enter your sex">
+        <a href="#" class="icon-link" onclick="showPopupSex(event)">
+            <img src="/question.png" alt="Icon">
+        </a>
+
+    </section>
+    
+
+    <section class="hidden" id="resS">
+        <h2 id="res"></h2>
+        <p id="resDetail"></p>
+    </section>
+    <section class="submit">
+        <a type="button" onclick="sendData()" class="btnSubmit" id="submitButton">submit</a>
+        <a class="btnSubmit" type="button" id="viewResults" onclick="display()">View Results</a>
+    </section>
+
+    <footer>
+        <h5>
+            &copy all website rights reserved 
+        </h5>
+    </footer>
+
+
+    <script src="/js fiels/questions.js"></script>
+</body>
+</html>
